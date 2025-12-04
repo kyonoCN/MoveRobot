@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<!--
+  Demo Scene URDF
+  这个URDF定义了一个简单的场景，包含：
+  - 桌子 (table)
+  - 墙壁 (wall)
+  - 立柱 (pillar)
+  
+  用途：作为MoveIt规划的静态障碍物
+-->
+<robot name="demo_scene">
+  
+  <!-- ==================== 世界基准链接 ==================== -->
+  <!-- 这是场景的根坐标系，所有物体相对于此定义位置 -->
+  <link name="world"/>
+  
+  <!-- ==================== 桌子 ==================== -->
+  <!-- 桌面：长1.2m x 宽0.8m x 高0.05m，桌面高度0.75m -->
+  <link name="table_top">
+    <visual>
+      <geometry>
+        <box size="1.2 0.8 0.05"/>
+      </geometry>
+      <material name="wood">
+        <color rgba="0.6 0.4 0.2 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="1.2 0.8 0.05"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- 桌子位置：前方0.6m处，高度0.75m（桌面中心） -->
+  <joint name="world_to_table" type="fixed">
+    <parent link="world"/>
+    <child link="table_top"/>
+    <origin xyz="0.6 0.0 0.775" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- 桌腿1（前左） -->
+  <link name="table_leg_fl">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.75"/>
+      </geometry>
+      <material name="metal">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03" length="0.75"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="table_to_leg_fl" type="fixed">
+    <parent link="table_top"/>
+    <child link="table_leg_fl"/>
+    <origin xyz="0.55 0.35 -0.4" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- 桌腿2（前右） -->
+  <link name="table_leg_fr">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.75"/>
+      </geometry>
+      <material name="metal">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03" length="0.75"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="table_to_leg_fr" type="fixed">
+    <parent link="table_top"/>
+    <child link="table_leg_fr"/>
+    <origin xyz="0.55 -0.35 -0.4" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- 桌腿3（后左） -->
+  <link name="table_leg_bl">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.75"/>
+      </geometry>
+      <material name="metal">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03" length="0.75"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="table_to_leg_bl" type="fixed">
+    <parent link="table_top"/>
+    <child link="table_leg_bl"/>
+    <origin xyz="-0.55 0.35 -0.4" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- 桌腿4（后右） -->
+  <link name="table_leg_br">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.75"/>
+      </geometry>
+      <material name="metal">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03" length="0.75"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="table_to_leg_br" type="fixed">
+    <parent link="table_top"/>
+    <child link="table_leg_br"/>
+    <origin xyz="-0.55 -0.35 -0.4" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- ==================== 墙壁 ==================== -->
+  <!-- 后墙：宽2m x 高2m x 厚0.1m -->
+  <link name="back_wall">
+    <visual>
+      <geometry>
+        <box size="0.1 2.0 2.0"/>
+      </geometry>
+      <material name="wall">
+        <color rgba="0.9 0.9 0.9 0.8"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 2.0 2.0"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- 墙壁位置：前方1.5m处 -->
+  <joint name="world_to_wall" type="fixed">
+    <parent link="world"/>
+    <child link="back_wall"/>
+    <origin xyz="1.5 0.0 1.0" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- ==================== 立柱障碍物 ==================== -->
+  <!-- 圆柱立柱：直径0.15m x 高1.5m -->
+  <link name="pillar">
+    <visual>
+      <geometry>
+        <cylinder radius="0.075" length="1.5"/>
+      </geometry>
+      <material name="pillar_mat">
+        <color rgba="0.3 0.3 0.8 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.075" length="1.5"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- 立柱位置：左前方 -->
+  <joint name="world_to_pillar" type="fixed">
+    <parent link="world"/>
+    <child link="pillar"/>
+    <origin xyz="0.4 0.5 0.75" rpy="0 0 0"/>
+  </joint>
+
+</robot>

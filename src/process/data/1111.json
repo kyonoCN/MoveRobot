@@ -1,0 +1,835 @@
+[
+  {
+    "timestamp": 1764320161.0632713,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": false,
+    "key_action": "left_gripper"
+  },
+  {
+    "timestamp": 1764320161.7472384,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": false,
+    "key_action": "right_gripper"
+  },
+  {
+    "timestamp": 1764320162.2553902,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": true,
+    "key_action": "right_gripper"
+  },
+  {
+    "timestamp": 1764320162.4353037,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": true,
+    "key_action": "right_gripper"
+  },
+  {
+    "timestamp": 1764320162.7892368,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": true,
+    "key_action": "left_arm"
+  },
+  {
+    "timestamp": 1764320163.1633725,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": true,
+    "key_action": "left_arm"
+  },
+  {
+    "timestamp": 1764320163.6131868,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": false,
+    "key_action": "right_arm"
+  },
+  {
+    "timestamp": 1764320164.1232247,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": false,
+    "key_action": "pause"
+  },
+  {
+    "timestamp": 1764320164.6552076,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": false,
+    "key_action": "right_arm"
+  },
+  {
+    "timestamp": 1764320164.8272095,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": true,
+    "key_action": "right_arm"
+  },
+  {
+    "timestamp": 1764320165.1351695,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": true,
+    "key_action": "pause"
+  },
+  {
+    "timestamp": 1764320211.9617524,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "",
+    "key_point": true,
+    "key_action": "left_arm"
+  },
+  {
+    "timestamp": 1764320251.8463356,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "ddadwdwd",
+    "key_point": false,
+    "key_action": "right_gripper"
+  },
+  {
+    "timestamp": 1764320277.7785234,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "ddadwdwd",
+    "key_point": false,
+    "key_action": "left_arm"
+  },
+  {
+    "timestamp": 1764320359.2114997,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "ddadwdwd",
+    "key_point": false,
+    "key_action": "pause"
+  },
+  {
+    "timestamp": 1764320379.4777124,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "ddadwdwd",
+    "key_point": false,
+    "key_action": "left_arm"
+  },
+  {
+    "timestamp": 1764320463.3324347,
+    "head": [
+      0.0,
+      0.0
+    ],
+    "lift": 0.0,
+    "left_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "right_arm": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "left_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "right_arm_eef": [
+      0,
+      0,
+      0
+    ],
+    "left_gripper": [
+      0.0
+    ],
+    "right_gripper": [
+      0.0
+    ],
+    "base_pose": [
+      0,
+      0,
+      0
+    ],
+    "pause": 2.0,
+    "description": "ddadwdwd",
+    "key_point": false,
+    "key_action": "pause"
+  }
+]

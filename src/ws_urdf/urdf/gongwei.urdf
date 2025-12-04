@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  工位场景URDF (ROS2版本)
+  原始文件来自SolidWorks导出的gongwei-11.10
+  用途：作为MoveIt避障规划的静态障碍物
+-->
+<robot name="gongwei">
+  
+  <!-- 工位坐标系根节点 -->
+  <link name="gongwei_base"/>
+  
+  <!-- 工位模型link -->
+  <link name="gongwei_mesh">
+    <inertial>
+      <origin xyz="-0.491571809712933 0.0115736276036881 0.236843015836955" rpy="0 0 0"/>
+      <mass value="311.214044558174"/>
+      <inertia
+        ixx="8.53735174733112"
+        ixy="0.0279863820767749"
+        ixz="-0.434559869833381"
+        iyy="16.9855137418556"
+        iyz="0.00879657234059777"
+        izz="16.4066896174466"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://ws_urdf/meshes/base_link.STL"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.7 0.7 0.7 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://ws_urdf/meshes/base_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- 通过joint实现绕Z轴旋转180度 -->
+  <joint name="gongwei_rotation" type="fixed">
+    <parent link="gongwei_base"/>
+    <child link="gongwei_mesh"/>
+    <!-- rpy: roll(X) pitch(Y) yaw(Z)，绕Z轴旋转180度=π -->
+    <origin xyz="0 0 0" rpy="0 0 3.14159"/>
+  </joint>
+
+</robot>
