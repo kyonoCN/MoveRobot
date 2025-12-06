@@ -1,0 +1,26 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: mmk2_urdf
+    relative_path: urdf/mmk2.urdf
+  srdf:
+    package: mmk2_moveit_config
+    relative_path: config/mmk2.srdf
+  package_settings:
+    author_name: xiaoxin
+    author_email: yanxbingxin6781@163.com
+    generated_timestamp: 1763525718
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
