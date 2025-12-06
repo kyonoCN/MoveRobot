@@ -1,0 +1,65 @@
+# MoveIt uses this configuration for controller management
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - left_arm_controller
+    - right_arm_controller
+    - torso_controller
+    - head_controller
+    - left_gripper_controller
+    - right_gripper_controller
+
+  left_arm_controller:
+    type: FollowJointTrajectory
+    joints:
+      - AR5_5_07L_joint_1
+      - AR5_5_07L_joint_2
+      - AR5_5_07L_joint_3
+      - AR5_5_07L_joint_4
+      - AR5_5_07L_joint_5
+      - AR5_5_07L_joint_6
+      - AR5_5_07L_joint_7
+    action_ns: follow_joint_trajectory
+    default: true
+  right_arm_controller:
+    type: FollowJointTrajectory
+    joints:
+      - AR5_5_07R_joint_1
+      - AR5_5_07R_joint_2
+      - AR5_5_07R_joint_3
+      - AR5_5_07R_joint_4
+      - AR5_5_07R_joint_5
+      - AR5_5_07R_joint_6
+      - AR5_5_07R_joint_7
+    action_ns: follow_joint_trajectory
+    default: true
+  torso_controller:
+    type: FollowJointTrajectory
+    joints:
+      - Trunk_Joint1
+      - Trunk_Joint2
+      - Trunk_Joint3
+      - Trunk_Joint4
+    action_ns: follow_joint_trajectory
+    default: true
+  head_controller:
+    type: FollowJointTrajectory
+    joints:
+      - Head_Joint1
+      - Head_Joint2
+    action_ns: follow_joint_trajectory
+    default: true
+  left_gripper_controller:
+    type: FollowJointTrajectory
+    joints:
+      - Lfinger_joint
+    action_ns: follow_joint_trajectory
+    default: true
+  right_gripper_controller:
+    type: FollowJointTrajectory
+    joints:
+      - Rfinger_joint
+    action_ns: follow_joint_trajectory
+    default: true

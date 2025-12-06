@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robot_model
+    relative_path: urdf/wheel_robot.urdf
+  srdf:
+    relative_path: config/robot_model.srdf
+  package_settings:
+    author_name: shengyue.wang@anyverseintelligence.com
+    author_email: shengyue.wang@anyverseintelligence.com
+    generated_timestamp: 1762520931
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
