@@ -1,0 +1,44 @@
+# Default initial positions for robot_model's ros2_control fake system
+
+initial_positions:
+  AR5_5_07L_joint_1: 1.587313
+  AR5_5_07L_joint_2: -0.786773
+  AR5_5_07L_joint_3: -2.301417
+  AR5_5_07L_joint_4: 2.066720
+  AR5_5_07L_joint_5: -0.583411
+  AR5_5_07L_joint_6: -0.460956
+  AR5_5_07L_joint_7: 0.843973
+
+  AR5_5_07R_joint_1: -1.587313
+  AR5_5_07R_joint_2: -0.786773
+  AR5_5_07R_joint_3: 2.301417
+  AR5_5_07R_joint_4: 2.066720
+  AR5_5_07R_joint_5: 0.583411
+  AR5_5_07R_joint_6: -0.460956
+  AR5_5_07R_joint_7: -0.843973
+
+  # AR5_5_07L_joint_1: 0.0
+  # AR5_5_07L_joint_2: 0.0
+  # AR5_5_07L_joint_3: 0.0
+  # AR5_5_07L_joint_4: 0.0
+  # AR5_5_07L_joint_5: 0.0
+  # AR5_5_07L_joint_6: 0.0
+  # AR5_5_07L_joint_7: 0.0
+
+  # AR5_5_07R_joint_1: 0.0
+  # AR5_5_07R_joint_2: 0.0
+  # AR5_5_07R_joint_3: 0.0
+  # AR5_5_07R_joint_4: 0.0
+  # AR5_5_07R_joint_5: 0.0
+  # AR5_5_07R_joint_6: 0.0
+  # AR5_5_07R_joint_7: 0.0
+
+  Head_Joint1: 0.0
+  Head_Joint2: 0.0
+  Trunk_Joint1: -0.95993
+  Trunk_Joint2: -1.48353
+  Trunk_Joint3: -0.52360
+  Trunk_Joint4: 0.0
+
+  Lfinger_joint: 0.0
+  Rfinger_joint: 0.0
